@@ -1,0 +1,22 @@
+{
+    "name": "hello/plugin-analytics",
+    "authors": [
+        {
+            "name": "Mehedi Hasan",
+            "email": "mehedihasansabbirmi@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.1",
+        "guzzlehttp/guzzle": "^7.0",
+        "league/csv": "^9.6"
+    },
+    "autoload": {
+        "classmap": [
+            "Commands/"
+        ]
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    }
+}
